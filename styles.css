@@ -424,5 +424,12 @@ button:hover {
         display: block;
     }
 
-    .
+    .divider {
+        width: 100%;
+        height: 10vh;
+    }
+
+    button {
+        width: 100%;
+    }
 }
