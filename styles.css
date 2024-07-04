@@ -33,7 +33,6 @@ header ul {
     align-items: flex-end;
     list-style-type: none;
     width: 30%;
-    max-width: 8rem;
     font-size: 1.2rem;
     margin-top: inherit;
 }
@@ -46,7 +45,6 @@ header ul {
 
 #header .icon {
     width: 20%;
-    max-width: 10rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -420,4 +418,11 @@ button:hover {
     h1 {
         font-size: 20px;
     }
+
+    .floor {
+        height: fit-content;
+        display: block;
+    }
+
+    .
 }
