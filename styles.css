@@ -52,7 +52,7 @@ header ul {
 }
 
 .floor {
-    height: fit-content;
+    height: 100vh;
     padding: 20px 10%;
     overflow: hidden;
 }
