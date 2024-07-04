@@ -19,7 +19,7 @@ header {
 }
 
 header logo a {
-    font-family: Cooper light;
+    font-family: Cooper;
     font-size: 2rem;
     text-decoration: none;
     font-weight: 300;
@@ -33,6 +33,7 @@ header ul {
     align-items: flex-end;
     list-style-type: none;
     width: 30%;
+    max-width: 8rem;
     font-size: 1.2rem;
     margin-top: inherit;
 }
@@ -45,12 +46,13 @@ header ul {
 
 #header .icon {
     width: 20%;
+    max-width: 10rem;
     display: flex;
     justify-content: space-evenly;
 }
 
 .floor {
-    height: 100vh;
+    height: fit-content;
     padding: 20px 10%;
     overflow: hidden;
 }
